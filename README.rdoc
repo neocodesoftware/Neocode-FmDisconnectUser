@@ -1,0 +1,42 @@
+
+  ______                                            
+ |  ____|                                           
+ | |__ _ __ ___                                     
+ |  __| '_ ` _ \                                    
+ | |  | | | | | |                                   
+ |_|_ |_| |_| |_|                                   
+ 
+  _____  _                                     _    
+ |  __ \(_)                                   | |   
+ | |  | |_ ___  ___ ___  _ __  _ __   ___  ___| |_  
+ | |  | | / __|/ __/ _ \| '_ \| '_ \ / _ \/ __| __| 
+ | |__| | \__ \ (_| (_) | | | | | | |  __/ (__| |_  
+ |_____/|_|___/\___\___/|_| |_|_| |_|\___|\___|\__| 
+ 
+ | |  | |                                           
+ | |  | |___  ___ _ __                              
+ | |  | / __|/ _ \ '__|                             
+ | |__| \__ \  __/ |                                
+  \____/|___/\___|_|                                
+                    
+
+== Fm Disconnect User
+Kill duplicate FM user connections 
+Check filemaker server for duplicate users 
+If there are duplicate users then all instances of the duplication users are disconnected If duplicate users are not disconnected until timeout then email error Script could be run either manually from command line php doaction.php or by openning web page https://servername/disconnectuser/index.php.
+
+== Requirements
+    PHP
+
+== Configuration
+* uncomment the following line in php.ini to enable email notifications: extension=php_openssl.dll
+* Update config.ini
+
+== Run It
+ Run script with command line:
+ php doaction.php
+ 
+ Configure as webservice and open https://servername/disconnectuser/index.php to run from web browser
+ 
+ 
+     
