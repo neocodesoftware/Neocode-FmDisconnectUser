@@ -31,6 +31,7 @@ If there are duplicate users then all instances of the duplication users are dis
 == Configuration
 * uncomment the following line in php.ini to enable email notifications: extension=php_openssl.dll
 * Update config.ini
+* For security ALWAYS ENCRYPT this file using a tool sucuh as ionCube Encoder or Zend Guard or SourceGuardian
 
 == Run It
  Run script with command line:
